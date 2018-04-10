@@ -8,6 +8,7 @@ This is a static site in html.
 
 cd /var/www/html
 mkdir -p cseco
+git clone git@github.com:cseco/site.git .
 cp -r root/ /
 systemctl daemon-reload
 systemctl enable csecosite.service
