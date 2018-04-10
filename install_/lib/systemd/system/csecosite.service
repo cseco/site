@@ -1,0 +1,15 @@
+[Unit]
+Description=csecosite
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/var/www/html/cseco
+ExecStart=/var/www/html/cseco/start.sh
+SyslogIdentifier=kcs_forwarder
+Restart=on-failure
+RestartSec=5
+
+
+[Install]
+WantedBy=multi-user.target
