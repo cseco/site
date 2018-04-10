@@ -56,7 +56,7 @@ $(document).ready(function ($) {
         history.pushState({}, '', hash.selector);
 
         hash = $(this.hash).selector.split('#')[1];
-        document.title = "iziToast - " + hash;
+        document.title = "CSECO - " + hash;
         // history.pushState(null, hash, hash);
     });
 
