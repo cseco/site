@@ -110,7 +110,7 @@ body{
   display: none;
   content: '';
   width: 31px;
-  height: 300px;
+  height: 320px;
   right: 31px;
   top: 50%;
   bottom: auto;
@@ -291,7 +291,8 @@ body{
 .buttons li:nth-child(4).active ~ li.lava { left: 290px; width: 70px; opacity: 1}
 .buttons li:nth-child(5).active ~ li.lava { left: 360px; width: 95px; opacity: 1}
 .buttons li:nth-child(6).active ~ li.lava { left: 455px; width: 80px; opacity: 1}
-.buttons li:nth-child(7).active ~ li.lava { left: 455px; width: 80px; opacity: 1}
+.buttons li:nth-child(7).active ~ li.lava { left: 535px; width: 91px; opacity: 1}
+.buttons li:nth-child(8).active ~ li.lava { left: 626px; width: 63px; opacity: 1}
 
 
 .buttons li:nth-child(1):hover ~ li.lava{ left: 0; width: 100px; opacity: 1}
@@ -301,6 +302,7 @@ body{
 .buttons li:nth-child(5):hover ~ li.lava { left: 360px; width: 95px; opacity: 1}
 .buttons li:nth-child(6):hover ~ li.lava { left: 455px; width: 80px; opacity: 1}
 .buttons li:nth-child(7):hover ~ li.lava { left: 535px; width: 91px; opacity: 1}
+.buttons li:nth-child(8):hover ~ li.lava { left: 626px; width: 63px; opacity: 1}
 
 
 .core .download{
