@@ -126,6 +126,79 @@ body{
   border-radius: 50px;
 }
 
+.highlighter{
+  /*height: 100vh;*/
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.highlighter-energy::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/solar2.jpg")  no-repeat 100% 0%;
+  background-size: cover;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+
+.highlighter_environment::before{
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /*background: url("../img/environment.jpg")  no-repeat 100% 0%;*/
+  background-size: cover;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+
+
+
+.highlighter-transport{
+  background: black;
+}
+.highlighter-transport::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/boda_boda2.png") no-repeat 100% 100%;
+  background-size: cover;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+
+.highlighter::after{
+  display: none;
+  content: '';
+  width: 31px;
+  height: 320px;
+  right: 31px;
+  top: 50%;
+  bottom: auto;
+  position: fixed;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.05);
+  margin: -85px 0 0 0;
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+  transform: translateY(-25%);
+  border-radius: 50px;
+}
+
+
 .bg{
   min-height: 5px;
    background: #402a00;
