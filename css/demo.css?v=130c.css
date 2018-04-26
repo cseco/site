@@ -132,7 +132,7 @@ body{
   overflow: hidden;
   z-index: 1;
 }
-.highlighter-energy::before{
+.highlighter_energy::before{
   content: '';
   position: absolute;
   left: 0;
@@ -144,6 +144,35 @@ body{
   opacity: 0.3;
   pointer-events: none;
 }
+
+.highlighter_building::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/brick.png")  repeat 100% 0%;
+  /*background-size: cover;*/
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.highlighter_agriculture::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/farm.png")  no-repeat 100% 0%;
+  background-size: cover;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+
+
 
 
 .highlighter_environment::before{
