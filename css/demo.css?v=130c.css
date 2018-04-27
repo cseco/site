@@ -193,17 +193,24 @@ body{
 .highlighter-transport{
   background: black;
 }
-.highlighter-transport::before{
+.highlighter_transport::before{
   content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background: url("../img/boda_boda2.png") no-repeat 100% 100%;
-  background-size: cover;
-  opacity: 0.5;
+  width: 100%;
+  background: url("../img/boda_boda2.png")  100% 0%;
+  /*background-size: cover;*/
+  background-size: auto;
+  opacity: 0.3;
   pointer-events: none;
+  /*background-position: center;*/
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 

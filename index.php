@@ -230,7 +230,7 @@ ga('send', 'pageview');
                 <h2 id="documentation"> Products and Services</h2>
                 <div class="notes">
                     <p style = "padding: 10px 10px 10px 10px;text-align: justify;">
-                        We have products and services for various areas in the sectors of: Agriculture, Building, Energy, Transport, Water, IoT and for the home.
+                        We have products and services for various areas in the sectors of: <a href="#Agricultural">Agriculture</a>, <a href="#Building">Building</a>, <a href="#Energy">Energy</a>, <a href="#Transport">Transport</a>, <a href="#Water">Water</a>, <a href="#IoT">IoT</a> and <a href="#Domestic">for the home</a>.
                     </p>
                 </div>
                 <div class="panel highlighter highlighter_agriculture" class="cd-section" id="Agricultural">
@@ -392,62 +392,127 @@ ga('send', 'pageview');
                     <h3 style='color:black; font-size:1.2em;font-family: "Architects Daughter"; font-size:2em;'>&nbsp; Csyber Systems</h3>
                     <img src = 'img/sectionConstruction.png' style="width:100%";/>
                 </div>
-                <div class="panel  highlighter highlighter-transport" class="cd-section" id="Transport" style=" background-size:100%; background: #000;">
+                <div class="panel highlighter highlighter_transport" class="cd-section" id="Transport" style=" background-size:100%; background: #000;">
                     <h3 style="background: transparent;">&nbsp;</h3>
                     <h3 style='color:black; font-size:1.2em;font-family: "Architects Daughter"; font-size:2em; '>&nbsp; Transport Sector</h3>
                     <!-- <img src = 'img/boda_boda.jpg' style="width:100%";/> -->
-                    <div class="wrap tweets">
-
+                    <div class="wrap tweets   ">
+                        Before
+                        <p style = 'text-align: center;color:white; font-family: "Architects Daughter";font-size: 1.2em;background: transparent;'> "Cast thy bread upon the waters: for thou shalt find it after many days." - Ecc 11:1</p>
                         <blockquote class="twitter-tweet">
-                            <h3 style = "color:white; font-size: 2em;background: transparent; text-decoration: underline;">Bodaboda</h3>
-                            <p style = "color:white; font-size: 2em;">Bodaboda is the biggest transport sector
-                            <br>
-                            Fleet management
-                            <br>
-                            Income collection
-                            <br>
-                            Savings
-                            <br>
-                            Get rider
-                            <br>
-                            Rider ratings
-                            <br>
-                            Maintenance
-                            <br>
-                            Geo location
-
+                            <h3 style = "color:white; font-size: 1.5em;background: transparent; text-decoration: underline;">Bodaboda Fleet Management</h3>
+                            <p style = "text-align: justify; color:white; font-size:1.2em;">
+                                <strong style="font-size: 1.5em; color: green;">[1]</strong> You own a bodaboda and you are having a hard time getting your remittance from your riders? <strong style="font-size: 1.5em; color: green;">[2]</strong> You own more than one bodaboda and you are looking for an easy way of managing them? <strong style="font-size: 1.5em; color: green;">[3]</strong> You own a bodaboda and are looking for a reliable rider? <strong style="font-size: 1.5em; color: green;">[4]</strong> You are a rider and are looking for a bike?<strong style="font-size: 1.5em; color: green;">[5]</strong> You want a ride but your regular boda boda is not available? <strong style="font-size: 1.5em; color: green;">[6]</strong> You need a package delivered but you have no way of knowing which rider is nearby?
+                                <br>
+                                The bodaboda system will help you solve these
+                                    
+                                <div style = "text-align: center;">
+                                    <button  style="text-align: center; padding:2px 2px 2px 2px;"><a href = "bodaboda">Get Started »</a></button>
+                                </div>
+                                
                             </p>
                         </blockquote>
                         <blockquote class="twitter-tweet">
-                            <h3>Building</h3>
-                        </blockquote
-                        ><blockquote class="twitter-tweet">Some blocks2
+                            <h3 style = "color:white; font-size: 1.5em;background: transparent; text-decoration: underline;">Features</h3>
+                            <p style = "color:white; font-size: 1.6em;"> ✔✔ Handling remittance</p>
+                            <p style = "color:white; font-size: 1.6em;"> ✔✔ Tracking Maintenance</p>
+                            <p style = "color:white; font-size: 1.6em;"> ✔✔ Tracking Bikes</p>
+                            <p style = "color:white; font-size: 1.6em;"> ✔✔ Hiring Riders</p>
+                            <p style = "color:white; font-size: 1.6em;"> ✔✔ Hiring Bikes</p>
+                            <p style = "color:white; font-size: 1.6em;"> ✔✔ Finding Riders</p>
+                        </blockquote>
+                        
+                        <!-- <blockquote class="twitter-tweet">
+                            <blockquote class="twitter-tweet">
+                                <h3 style="color: #000;">Solar Tracking</h3>
+                                <div style="height:200px; display: inline-block; vertical-align: middle;" class = "highlighter_environment">
+                                    <img src = 'img/solar.jpg' style=" width: 100%; margin:auto;"/>
+                                </div>
+                                <p style = "text-align: justify; color:black; font-size:0.9em;">The solar tracker will either tell you the best orientation for your panels, or ensure that your solar panels are always oriented sunward so that you get the maximum energy from the sun. <button  style="text-align: center; padding:2px 2px 2px 2px;"><a href = "csynergy#power-monitor">Read More »</a></button></p>
+                            </blockquote>
+                            <blockquote class="twitter-tweet">
+                                <h3 style="color: #000;">Solar exploration</h3>
+                                <div style="height:200px; display: inline-block; vertical-align: middle;" class = "highlighter_environment">
+                                    <img src = 'img/generation.jpg' style=" width: 100%; margin:auto;"/>
+                                </div>
+                                <p style = "text-align: justify; color:black; font-size:0.9em;">The solar exploration monitors the solar irradiation and wind outside your building to calculate the energy generation potential of your building, for both electric and thermal energy. <button  style="text-align: center; padding:2px 2px 2px 2px;"><a href = "csynergy#power-monitor">Read More »</a></button></p>
+                            </blockquote>
+
+                        </blockquote> -->
+                    </div>
+                    <h3 style = "color:white; font-size: 2em;background: transparent; text-align: center; width: 100%; text-decoration: underline;">Stakeholders</h3>
+                    <div class="wrap tweets   ">
+
+                        <blockquote class="twitter-tweet">
+                            <h3 style = "color:white; font-size: 2em;background: transparent; text-decoration: underline;">Investors</h3>
+                            <p style = "text-align: justify; color:white; font-size:1.2em;">
+                                Kenyan investors have put 600,000 public bodabodas on the road with each making an average of   kes 1000/day which translates to kes 187.2 billion/year (312 working days). What problems have these investors? - Careless and theiving bodaboda riders: motorbikes ageing fast due to lack of servicing, remittances not made.
+                        
+                                
+                            </p>
+                            <p style = "text-align: justify; color:white; font-size:1.2em;">
+                                The bodaboda system is designed to make the bodaboda business a worthwhile venture for investors. How does it work? - It enables the investor to manage the whole of his fleet (even of a single bike) from a single place. Nay, it manages the fleet for him. (Then he may have time to go to his <a href = "#Agricultural">farm</a>) 
+                                <strong style="font-size: 1.5em; color: green;">[1]</strong>
+                                Riders are rated by their previous employers and current employers. This way the system ensures that you get the best riders for your bikes. If you loose your current rider to another job, say <a href = "#Agricultural">agriculture</a>, there will be others, tried and tested, ready the next minute to fill his position. 
+
+                                <strong style="font-size: 1.5em; color: green;">[2]</strong>
+                                The system also helps you get your remittance daily so that you undergo the least possible loss in the case of a defaulting rider. <strong>How?</strong> - The bike is immobilized at the beginning of each day if the previous day's remittance was not made, until it is made.
+                                You don't want your money daily? - It can still be forwarded to your savings, or other, account at your bank.
+
+                                <strong style="font-size: 1.5em; color: green;">[3]</strong>
+                                The system also schedules preventive maintenance for your bikes 
+
+                                <strong style="font-size: 1.5em; color: green;">[4]</strong>
+                                Get also to know where your bikes are by tracking them
+                                <strong style="font-size: 1.5em; color: green;">[5]</strong>
+                                You can also get estimates of how many trips were made and how much each trip cost so as to get the estimates for the whole day.
+                            </p>
+                            <div style = "text-align: center;">
+                                <button  style="text-align: center; padding:2px 2px 2px 2px;"><a href = "bodaboda">Register »</a></button>
+                            </div>
+                        </blockquote>
+                        <blockquote class="twitter-tweet">
+                            <h3 style = "color:white; font-size: 2em;background: transparent; text-decoration: underline;">Riders</h3>
+                            <p style = "text-align: justify; color:white; font-size:1.2em;">
+                                The bodaboda system provides a win-win: investor wins, rider wins.What is in it for the rider? <strong style="font-size: 1.5em; color: green;">[1]</strong> The system lists available bikes which can be hired at any time. No more tarmacking riders while there are idle bikes. And the rider needs not know the bike owner to get the bike.
+
+                                <strong style="font-size: 1.5em; color: green;">[2]</strong>
+                                By faithfulness in that which is least, riders develop their profiles for easy future employment by other bike owners.
+                                <strong style="font-size: 1.5em; color: green;">[3]</strong>
+                                Survival for the fittest? No such thing here. Just be faithful and get called to do extra business of package delivery and occasionally also be connected with some lost passenger looking for a bike. 
+                            </p>
+                            <div style = "text-align: center;">
+                                    <button  style="text-align: center; padding:2px 2px 2px 2px;"><a href = "bodaboda">Register »</a></button>
+                            </div>
+                            
+                        </blockquote>
+                        <blockquote class="twitter-tweet">
+                            <h3 style = "color:white; font-size: 2em;background: transparent; text-decoration: underline;">Passengers</h3>
+                            <p style = "text-align: justify; color:white; font-size:1.2em;">
+                                <strong style="font-size: 1.5em; color: green;">[1]</strong>
+                                You are new to a place? (Maybe looking for a <a href = "#Agricultural">farm</a>) - Don't get overcharged for your ignorance of the place. Check the bodaboda prices in the system. Then fill in prices for your locality to help others who will come there.
+                                <strong style="font-size: 1.5em; color: green;">[2]</strong>
+                                Once in a while also when you alight at a place where there are no bodaboda's and you need one, the bodaboda system will be all ready to assist you get one.
+                            </p>
+                            <div style = "text-align: center;">
+                                <button  style="text-align: center; padding:2px 2px 2px 2px;"><a href = "bodaboda">Register »</a></button>
+                            </div>
+                        </blockquote>
+                        <blockquote class="twitter-tweet">
+                            <h3 style = "color:white; font-size: 2em;background: transparent; text-decoration: underline;">Other Road Users</h3>
+                            <p style = "text-align: justify; color:white; font-size:1.2em;">
+                                Each day the sole hits the pavement and the wheels hit the tarmac; men toiling to earn a support for their families. What problems have they? - The rowdy bodaboda. But now they cannot afford it. For business is not to the rowdy, nor to the strongest, but to the faithful.
+                            </p>
+                            
                         </blockquote>
                     </div>
+
                 </div>
                 <div class="panel" class="cd-section" id="Water" style="background: url('img/water2.jpg')  50% 0%; background-size:100%;">
                     <h3 style='color:black; font-size:1.2em;font-family: "Architects Daughter"; font-size:2em;'>&nbsp; Water Sector</h3>
                     <div class="wrap tweets">
 
-                        <blockquote class="twitter-tweet">
-                            <h3>Energy</h3>
-                            <p>First sector</p>
-                            <br>Level
-                            <br>Flow
-                            <br>Pressure
-                            <br>Temperature
-                            <br>Salinity
-                            <br>Management: Incoming, used, 
-                            <br>Harvesting capacity
-                            <br>Storage Capacity
-                            <br>Rainfall
-                            some txt
-                        </blockquote>
-                        <blockquote class="twitter-tweet">
-                            <h3>Building</h3>
-                        </blockquote
-                        ><blockquote class="twitter-tweet">Some blocks2
-                        </blockquote>
+                        <img src = 'img/sectionConstruction.png' style="width:100%";/>
                     </div>
                 </div>
                 <div class="panel" class="cd-section" id="Domestic">
